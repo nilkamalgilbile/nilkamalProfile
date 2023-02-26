@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+div.container-fluid {
+  --bs-gutter-x: 0;
+  --bs-gutter-x: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* -----Profile Block----- */
+.profileBlock {
+  margin: 0;
+  padding: 0;
+  /* background: rgb(224, 209, 209); */
+  /* background: #e8e8e8; */
+  width: 100%;
+  height: auto;
+}
+
+/* -----About Me----- */
+.aboutMe {
+  margin: 0;
+  padding: 40px 10px;
+  /* background: rgb(224, 209, 209); */
+  background: #e8e8e8;
+  width: 100%;
+  height: auto;
+  /* background: rgb(247, 242, 242); */
+}
+.aboutMe .imgBlock {
+  /* border: 2px solid black; */
+  height: auto;
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.aboutMe .imgBlock .imgSrc {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 15px 20px 7px #b0b0b0;
+  padding: 5px;
+}
+.aboutMe .descBlock {
+  height: auto;
+  padding: 35px;
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  box-shadow: 15px 10px 10px #b0b0b0;
+  background: white;
+  box-sizing: border-box;
+}
+.aboutMe .descBlock:hover {
+  background-color: whitesmoke;
+}
+.heading2 {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.3em;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  /* font-family: "Finlandica", sans-serif; */
+  /* font-family: "Gugi", cursive; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Shantell Sans", cursive;
+  font-weight: bold;
+  color: crimson;
+  /* text-transform: uppercase; */
+}
+.aboutMe .descBlock .subHeading {
+  font-family: "Finlandica", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.aboutMe .descBlock .headDesc {
+  font-family: "Gugi", cursive;
+}
+.aboutMe .descBlock .aboutDesc {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .aboutMe .imgBlock .imgSrc {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* -----Skills block----- */
+.skillsBlock .skillsDesc {
+  display: flex;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skillsBlock .skillsDesc img {
+  width: 110px;
+  height: 110px;
+  margin: 20px;
+  box-shadow: 10px 5px 5px #b0b0b0;
+  border-radius: 10%;
+  border: 3px solid gray;
+  padding: 10px;
+}
+.skillsBlock .skillsDesc img:hover {
+  width: 120px;
+  height: 120px;
+}
+
+/* -----Hobbies block----- */
+.hobbiesBlock .hobbiesDesc {
+  display: flex;
+  background-color: rgb(247, 223, 226);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.hobbiesBlock .hobbiesDesc img {
+  width: 210px;
+  height: 210px;
+  margin: 20px;
+  box-shadow: 15px 10px 10px #979696;
+}
+.hobbiesBlock .hobbiesDesc img:hover {
+  width: 230px;
+  height: 230px;
+}
+
+/* -----Location block----- */
+.locationBlock .locationMap {
+  width: 100%;
+  height: 400px;
+  border: 2px solid rgb(169, 165, 165);
+  box-sizing: border-box;
+  box-shadow: 10px 15px 8px #bab7b7;
+}
+.locationBlock .locationMap iframe {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .locationBlock .locationMap {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.horizontalLine {
+  width: 100%;
+  color: crimson;
+  border-top: 5px solid;
+  margin: 60px 0 0 0;
+  opacity: 1;
+}
+
+/* -----footer----- */
+.socialLinkBlock {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(30, 29, 29);
+  color: white;
+  text-shadow: 2px 1px black;
+  font-size: 18px;
+}
+.socialLinkBlock a i {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+.socialLinkBlock a i:hover {
+  font-size: 33px;
+}
